@@ -24,7 +24,7 @@ class CommonButton extends StatelessWidget {
     return MaterialButton(
       padding: padding,
       color: bgColor != null ? bgColor : Colors.blue,
-      onPressed: () => onTap,
+      onPressed: () => onTap(),
       child: Center(
         child: Text(
           "$text",
